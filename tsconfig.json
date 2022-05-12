@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "strict": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "jsx": "react",
+    "sourceMap": true,
+    "esModuleInterop": true,
+  },
+  "include": ["./src/**/*", "webpack"]
+}
