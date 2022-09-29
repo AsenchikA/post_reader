@@ -1,30 +1,14 @@
-# Basic webpack boilerplate
+# Post reader (test assignment)
 
-## Usage
+A simple post reader as a React SPA
 
-### Development server
+Requirements:
 
-Server with hot reload at `http://localhost:3000/`
-
-```
-npm run dev
-```
-
-### Production build
-
-```
-npm run build
-```
-
-## Tools
-
-- [Webpack](https://webpack.js.org/)
-- [Typescript](https://www.typescriptlang.org/)
-- [React](https://reactjs.org/)
-- [Redux](https://redux.js.org/)
-- [PostCss](https://postcss.org/)
-- [Eslint](https://eslint.org/)
-- [Stylelint](https://stylelint.io/)
-- [Husky](https://typicode.github.io/husky/#/)
-- [Prettier](https://prettier.io/)
-- [Lint-staged](https://github.com/okonet/lint-staged)
+- Login Screen with email and name inputs.
+- Sender list with sender name and post count ordered by name alphabetically.
+- Clicking on a sender opens that sender's posts in the post list view.
+- Post list where posts are ordered by creation time.
+- Post order buttons to allow choosing most recent first and most recent last ordering for posts list
+- Search box for senders. Any senders whose name do not contain the text entered are hidden
+- Search box for posts. Any posts that do not contain the text entered are hidden
+- Deep-linkable post list. This means that it is possible to enter a URL that directly selects the sender whose posts are shown.
