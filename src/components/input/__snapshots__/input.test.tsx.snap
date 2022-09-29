@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders correcly 1`] = `
+<div
+  className="container test-class"
+>
+  <label
+    htmlFor="test-id"
+  >
+    label
+  </label>
+  <input
+    className="input"
+    id="test-id"
+  />
+</div>
+`;

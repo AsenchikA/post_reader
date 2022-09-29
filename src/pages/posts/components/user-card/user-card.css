@@ -1,0 +1,21 @@
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  cursor: pointer;
+
+  &__post-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    min-width: 25px;
+    padding: 0 5px;
+    border-radius: 15px;
+    background-color: #bebeff;
+    color: white;
+  }
+}

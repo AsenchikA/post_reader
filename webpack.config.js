@@ -7,6 +7,7 @@ module.exports = {
     path: path.join(__dirname, '/dist'),
     filename: 'main.[contenthash].js',
     clean: true,
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -102,5 +103,6 @@ module.exports = {
     open: true,
     host: 'localhost',
     hot: true,
+    historyApiFallback: true,
   },
 };

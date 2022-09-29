@@ -1,9 +1,14 @@
-import { composeWithDevTools } from '@redux-devtools/extension';
-import { applyMiddleware, createStore } from 'redux';
-import thunk from 'redux-thunk';
-import rootReducer from './reducers';
+import { configureStore } from '@reduxjs/toolkit';
+import postsReducer from './slices/postList';
+import loginReducer from './slices/login';
 
-export function configureStore() {
-  const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
-  return store;
-}
+export const store = configureStore({
+  reducer: {
+    posts: postsReducer,
+    login: loginReducer,
+  },
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+
+export type AppDispatch = typeof store.dispatch;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard renders correcly 1`] = `
+<div
+  className="post-card test-class"
+>
+  <div
+    className="post-card__date"
+  >
+    Thu, 01 Jan 1970 00:00:00 GMT
+  </div>
+  <div
+    className="post-card__message"
+  >
+    message
+  </div>
+</div>
+`;

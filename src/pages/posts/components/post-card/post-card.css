@@ -1,0 +1,13 @@
+.post-card {
+  border-radius: 5px;
+  border: 1px solid blue;
+
+  &__date {
+    padding: 10px;
+    border-bottom: 1px solid blue;
+  }
+
+  &__message {
+    padding: 10px;
+  }
+}
