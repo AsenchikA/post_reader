@@ -22,5 +22,5 @@
     "browser": true,
     "node": true
   },
-  "ignorePatterns": ["/dist", "/node_modules", "jest.config.js"]
+  "ignorePatterns": ["/dist", "/node_modules", "jest.config.js", "webpack.config.js"]
 }
